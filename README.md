@@ -227,6 +227,13 @@ Error: error defining libvirt domain: unsupported configuration: spice graphics 
 
 solution:
 Try installing "qemu-full" package
+
+OR
+
+Try changing the graphics to "vnc" instead of "spice" in the following files:
+- kali-machine.tf
+- main.tf
+- ubuntu-machine.tf
 ```
 
 ```
